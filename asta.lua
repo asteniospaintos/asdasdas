@@ -4,7 +4,7 @@ local UI = {}
 
 function UI.button(text, callback)
     local aaaaa = Instance.new("ScreenGui")
-    aaaaa.Parent = game:WaitForChild("CoreGui")
+    aaaaa.Parent = game:GetService("CoreGui")
     
     local button = Instance.new("TextButton")
     button.Name = "Button"
